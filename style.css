@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main{
+    width: 90%;
+    margin-left: 5%;
+}
+
+main h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.resposta{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 1px solid #00aaff;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 2px 5px 10px #222;
+}
+
+.resposta h3{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.cabecalho input{
+    padding: 10px;
+    width: 220px;
+    border-radius: 5px;
+    border: 1px solid #00aaff;
+}
+
+#adcItem{
+    padding: 5px;
+    border-radius: 15px;
+    width: 80px;
+    margin-left: 40%;
+    margin-top: 15px;
+
+    background: linear-gradient(45deg, #f00, #52170b) ;
+    color: #fff;
+    border-color: #fff;
+}
+
+table tr td{
+    width: 110px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+table tr:nth-child(even){
+    background-color: #ddd;
+}
+
+table{
+    border: 1px solid #222;
+    margin-top: 20px;
+}
+table tr th{
+    background: linear-gradient(45deg, #b489ac, #00aaff);
+    color: #fff;
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.removerButton{
+    background: linear-gradient(45deg, #b489ac, #00aaff);
+    color: #fff;
+    padding: 3px;
+    border-radius: 15px;
+    border: transparent;
+}
